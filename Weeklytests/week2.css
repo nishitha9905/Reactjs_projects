@@ -1,0 +1,69 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    height: 800px;
+}
+.main-session{
+    background-color:#376BFB;
+    border-radius: 20px;
+    padding:10px;
+    width:900px;
+}
+.Aside-section{
+    background-color:#376BFB;
+    border-radius: 20px;
+    padding:10px;
+    width:250px;
+}
+.Aside-section div,h3{
+    text-align: center;
+}
+.Aside-section button{
+    margin-left:70px;
+    border-radius: 10px;
+    background-color: #176086;
+    color:white;
+    padding:10px;
+    border:none;
+}
+
+
+.nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.div-section{
+    background-color: rgb(19, 19, 21);
+    border-radius: 10px;
+}
+.div-section a{
+    margin:10px;
+    text-decoration: none;
+    color: white;
+}
+.main-content-div{
+    background-color: #176086;
+    padding:10px;
+    border-radius: 10px;
+}
+.main-content a{
+    margin-left: 430px;
+    text-decoration: none;
+    color:white;
+}
+.main-content2{
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+}
+.main-content2 div{
+    margin:10px;
+    padding:10px;
+    background-color: #176086;
+    border-radius: 10px;
+}
