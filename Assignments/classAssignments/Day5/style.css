@@ -1,0 +1,48 @@
+.header h1{
+    color:palevioletred
+}
+.nav-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: gray;
+}
+.nav-section a{
+    text-decoration: none;
+    color: white;
+}
+.section2{
+    text-align: center;
+    background-color: palevioletred;
+    color:white;
+    padding:10px;
+}
+.section2 button{
+    border : 1px solid white;
+    color:white;
+    padding:10px;
+    background-color: palevioletred;
+}
+.section3{
+    text-align: center;
+}
+.section3 .para1{
+    color:palevioletred
+}
+.section4{
+    text-align: center;
+}
+footer .para1{
+    background-color: gray;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
+footer p a {
+    text-decoration: none;
+    color:black
+}
