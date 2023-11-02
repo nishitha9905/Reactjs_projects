@@ -1,0 +1,86 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.navbar-links{
+    margin-top: 20px;
+}
+.navbar-links a{
+    margin:10px;
+    text-decoration: none;
+    color:black
+}
+.navbar-button{
+    margin-top: 10px;
+}
+.navbar-button button{
+    padding:10px;
+    border:none;
+    color:white;
+    background-color: blue;
+    border-radius: 8px;
+}
+.text-section{
+   position: relative;
+   bottom:450px;
+   left:100px;
+}
+.text-section h1{
+    font-size: 40px;
+}
+.img-content-section img{
+    width:500px;
+}
+.img-content-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -200px;
+}
+.content-section{
+    background-color: whitesmoke;
+    width:600px;
+    padding-left: 50px;
+    margin-left: -100px;
+}
+.content-section button{
+    background-color: blue;
+    padding:10px;
+    border-radius: 10px ;
+    border:none;
+    color:white
+}
+.para-section{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.para-section p {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    height:auto;
+}
+
+.footer{
+    text-align: center;
+    background-color: whitesmoke;
+    padding:20px;
+    height:300px;
+}
+.footer img{
+    margin-top: 45px;
+}
+.footer a{
+    text-decoration: none;
+    color:black;
+    margin-right: 50px;
+}
